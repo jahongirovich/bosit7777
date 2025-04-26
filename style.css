@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .header {
+    background: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+    text-decoration: none;
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav .btn {
+    background: none;
+    border: 2px solid #e63946;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #e63946;
+  }
+  
+  .hero {
+    background: url(image\ 4.png) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero-image img {
+    width: 300px;
+  }
+  
+  .services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .service img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .service-text {
+    text-align: left;
+  }
+  
+  .contact {
+    background: #00bcd4;
+    padding: 50px 0;
+    color: #fff;
+  }
+  
+  .contact-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .contact-form form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+  }
+  
+  .contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background: #111;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e63946;
+  text-decoration: none;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.nav .btn {
+  background: none;
+  border: 2px solid #e63946;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #e63946;
+
+}
+
+.hero {
+  background: url(image\ 4.png) no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1440px;
+  height: 669px;    
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-image img {
+  width: 300px;
+}
+
+.services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.service img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.service-text {
+  text-align: left;
+}
+
+.contact {
+  background: #00bcd4;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.contact-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.contact-form form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  background: #111;
+  padding: 20px 0;
+  text-align: center;
+  width: 1440px;
+  height: 97px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
